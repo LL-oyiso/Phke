@@ -10,7 +10,7 @@ import {FaBars}  from 'react-icons/fa'
             setNav(!nav)
         }
       return (
-        <div  className=' sticky top-0 w-full flex   justify-between items-center z-10 text-black  bg-white '>
+        <div  className=' sticky top-0 w-full flex   justify-between items-center z-10 text-black  bg-gray-800 '>
             <ul className='hidden sm:flex px-4 font-[Montserrat]  '>
            
            <li className='text-xl hover:-translate-y-0 hover:scale-90 hover:bg-gray-100 duration-400 rounded-3xl '>
@@ -31,7 +31,7 @@ import {FaBars}  from 'react-icons/fa'
            <button className='bg-black text-white'>LOGIN</button>
            </li>
            <li className=''>
-           <button className='border-black'>GET STARTED</button>
+           <button className='border-black'>Sign up</button>
            </li>
          </ul>
            
