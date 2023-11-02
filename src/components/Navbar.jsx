@@ -11,18 +11,22 @@ import {FaBars}  from 'react-icons/fa'
         }
       return (
         <div  className=' sticky top-0 w-full flex   justify-between items-center z-10 text-black  bg-white '>
-              <ul className='hidden sm:flex px-4 font-[Montserrat]  '>
+            <ul className='hidden sm:flex px-4 font-[Montserrat]  '>
            
            <li className='text-xl hover:-translate-y-0 hover:scale-90 hover:bg-gray-100 duration-400 rounded-3xl '>
-             <a href ="#creators">Features</a>
+             <a href ="#creators">Home</a>
            </li>
            <li className='text-xl hover:-translate-y-0 hover:scale-90 hover:bg-gray-100 duration-400 rounded-3xl '>
-           <a href ="#specs"></a>
+           <a href ="#specs">About</a>
            </li>
            <li className='text-xl hover:-translate-y-0 hover:scale-90 hover:bg-gray-100 duration-400 rounded-3xl '>
-           <a href ="#subscribe">Subscribe</a>
+           <a href ="#subscribe">Features</a>
            </li>
-   
+            </ul>
+
+            <a href ="#hero" className='mr-20 text-2xl font-bold'><h1>Phoke</h1></a>
+            
+            <ul className='flex font-bold'>
            <li className="">
            <button className='bg-black text-white'>LOGIN</button>
            </li>
@@ -30,7 +34,7 @@ import {FaBars}  from 'react-icons/fa'
            <button className='border-black'>GET STARTED</button>
            </li>
          </ul>
-           <a href ="#hero"><h1 className='p-4 font-bold text-2xl '>Home</h1></a>
+           
         
           {/* Hamburger icon anything above small it will be hidden */}
           <div onClick ={handleNav} className='sm:hidden z-10'>
