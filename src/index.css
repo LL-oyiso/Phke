@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@500;900&display=swap');
+
+
+
+
+:root{
+    --primary-dark:#fcf300;
+    --primary-light:#ffe97f;
+  }
+  
+  @layer base{
+    html{
+      @apply scroll-smooth
+    }
+  
+    li{
+       
+      @apply p-4 text-sm 
+    }
+  
+    button{
+      @apply px-2 py-1 border rounded-2xl  text-black
+    }
+  
+    h2{
+      @apply text-xl font-bold
+    }
+  }
