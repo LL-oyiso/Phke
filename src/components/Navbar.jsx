@@ -30,10 +30,10 @@ import {FaBars}  from 'react-icons/fa'
                         
                         <ul className='flex font-bold'>
                         <li className="">
-                        <button className='bg-[#0061F1] text-white'>LOGIN</button>
+                        <button className='bg-[#0061F1] text-white  p-2 w-[120px] '>LOGIN</button>
                         </li>
                         <li className=''>
-                        <button className='border-[#0061F1] text-[#0061F1]'>Sign up</button>
+                        <button className='border-[#0061F1] text-[#0061F1] p-2 w-[120px] bg-white'>Sign up</button>
                         </li>
                     </ul>
                         

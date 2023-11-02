@@ -24,7 +24,7 @@
     }
   
     button{
-      @apply px-2 py-1 border rounded-2xl  text-black
+      @apply px-2 py-1 border rounded-2xl     
     }
   
     h2{
