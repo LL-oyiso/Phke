@@ -11,9 +11,9 @@ import {FaBars}  from 'react-icons/fa'
         }
       return (
         <div className='w-full min-h-[80px] bg-black sticky top-0'>
-                <div  className='  w-full flex min-h-[40px]  justify-between items-center z-10 text-white  bg-transparent '>
+                <div  className='  w-full flex min-h-[40px]  justify-between items-center z-10 text-white font-bold  bg-transparent '>
                         
-                        <ul className='hidden sm:flex px-4 font-[Montserrat] bg-purple '>
+                        <ul className='hidden sm:flex px-4 font-[Inter]'>
                         
                         <li className='text-xl hover:-translate-y-0 hover:scale-90 hover:bg-gray-100 duration-400 rounded-3xl '>
                         <a href ="#creators">Home</a>
