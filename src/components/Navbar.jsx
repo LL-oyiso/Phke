@@ -10,8 +10,8 @@ import {FaBars}  from 'react-icons/fa'
             setNav(!nav)
         }
       return (
-        <div className='w-full min-h-[80px] bg-black sticky top-0'>
-                <div  className='  w-full flex min-h-[40px]  justify-between items-center z-10 text-white font-bold  bg-transparent '>
+        <div className='w-full min-h-[10px] bg-black sticky top-0'>
+                <div  className='  w-full flex min-h-[40px]  justify-between items-center  text-white font-bold   '>
                         
                         <ul className='hidden sm:flex px-4 font-[Inter]'>
                         
@@ -26,9 +26,9 @@ import {FaBars}  from 'react-icons/fa'
                         </li>
                         </ul>
 
-                        <a href ="#hero" className='mr-20 text-2xl font-bold'><h1>Phoke</h1></a>
+                        <a href ="#hero" className='mr-20 text-2xl font-bold '><h1>Phoke</h1></a>
                         
-                        <ul className='flex font-bold'>
+                        <ul className='flex font-bold '>
                         <li className="">
                         <button className='border-none bg-[#0061F1] text-white  p-2 w-[120px] '>LOGIN</button>
                         </li>

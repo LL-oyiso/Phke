@@ -4,10 +4,10 @@ import Manwhite from '../Maninwhiteshirt (1).jpeg'
 function Hero() {
   return (
     <>
-    <div className='w-full h-[900px] bg-black'>
+    <div className='w-full h-[100vh] bg-black'>
         <div className=' justify-around text-white p-4 max-w-[1500px] m-auto  '>
         <div className=' text-white absolute top-[22%]  max-w-[690px]  h-full '>
-        <h1 className='font-bold text-[60px] font-[Inter]'>You’ve never experiened <span className='text-[#8F8F8F]'>texting like this before</span> </h1>
+        <h1 className='font-bold text-[58px] font-[Inter]'>You’ve never experiened <span className='text-[#8F8F8F]'>texting like this before</span> </h1>
         <p className='text-[27px] font-semibold mt-10 font-[Inter] w-[524px] ' >Pioneering the Future of Real-Time Chat: Shaping the Next Generation of Conversations</p>
        </div>
     
