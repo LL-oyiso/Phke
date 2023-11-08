@@ -4,7 +4,7 @@ import textscreen from '../Frame 13.svg'
  import friends from '../Rectangle 41.png'
  import friend2nd from '../Rectangle 42.png'
  import friend3rd from '../Rectangle 43.png'
- 
+ import pizza from '../pizza slice.gif'
 
 export const MainContent = () => {
   return (
@@ -30,7 +30,7 @@ export const MainContent = () => {
 
         </div>
         <div className='w-[680px]'>
-        <h1 className='font-bold text-white ml-10 text-[55px]  '> Build your community</h1>
+        <h1 className='font-bold text-white ml-10 text-[55px]    '> Build your community</h1>
         <h2 className='text-white text-[40px] ml-10 mt-24 '>Customizable chat rooms</h2>
                 <p className='text-white text-[35px] ml-10 '>Users can create public or private chat rooms based on topics, interests, or communities.</p>
 
@@ -38,15 +38,20 @@ export const MainContent = () => {
                 <p className='text-white text-[35px] ml-10 ' >Private one-on-one messaging is applied by default between users. Users can initiate private conversations with others.</p>
         </div>
 
-        <div className=' flex ml-auto mt-10 mr-20'>
-            <div className='mt-5'>
+        <div className=' flex ml-auto  mr-20 -gray-800'>
+            <div className='mt-32'>
             <img src={friend2nd} alt =" "  className='w-[190px] object-contain mr-20 ' />
             <img src ={friend3rd} alt = " "  className='w-[210px] object-contain mt-10 ml-20' />
             <img src ={friends} alt = " "  className='w-[190px] object-contain ml-20 mt-10 '/>
             </div>
-            
-           <img src={textscreen} alt=" "  />
+            <div>
+            <img src={pizza} alt =" " className='object-contain w-[200px] mr-10  ' />
+            <img src={textscreen} alt=" " className=' object-contain h-[700px]' />
+    
+            </div>
         </div>
+
+
     
     </div>
     </div>
