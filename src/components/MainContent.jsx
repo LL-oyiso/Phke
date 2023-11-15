@@ -30,7 +30,7 @@ export const MainContent = () => {
 
         </div>
         <div className='w-[680px]'>
-        <h1 className='font-bold text-white ml-10 text-[55px]    '> Build your community</h1>
+        <h1 className='font-bold text-white ml-10 text-[55px] '> Build your community</h1>
         <h2 className='text-white text-[40px] ml-10 mt-24 '>Customizable chat rooms</h2>
                 <p className='text-white text-[35px] ml-10 '>Users can create public or private chat rooms based on topics, interests, or communities.</p>
 
@@ -61,8 +61,9 @@ export const MainContent = () => {
         <div className=''>
             <h1 className='font-bold text-white mt-28    ml-32 text-[55px] '>Express yourself securely</h1>
             <p className='text-white text-[35px] ml-32 w-[750px]'>Proactively averting harm from the outset, granting enhanced choices and command, providing considerate reactions, and embracing your openness in a private, secure, and assured manner</p>
-        </div>
 
+            
+        </div>
     </div>
     </div>
 
