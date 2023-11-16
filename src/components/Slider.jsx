@@ -1,31 +1,25 @@
 import React from 'react'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export function Slider() {
-    const data = [
-        {
-            name: 'Loyiso Tose',
-            review:'Loprem iwenbrjnrnnffkfjfd'
-        },
-        {
-            name: 'Loyiso Tose',
-            review:'Loprem iwenbrjnrnnffkfjfd'
-        },
-        {
-            name: 'Loyiso Tose',
-            review:'Loprem iwenbrjnrnnffkfjfd'
-        },
-        {
-            name: 'Loyiso Tose',
-            review:'Loprem iwenbrjnrnnffkfjfd'
-        }
-    ]
+    
+    // var settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    //   };
+    
   return (
     <div className='w-3/4 m-auto'>
         <div className='mt-20'>
+      
           {/* iterate through this using a map */}
           {data.map((d) => (
             <div className='bg-white h-[450px] text-black rounded-xl'> 
-                <div className=' h-56rounded-t-xl bg-indigo-500 flex justify-center items-center'> 
+                <div className=' h-56 rounded-t-xl bg-indigo-500 flex justify-center items-center'> 
                    
                 </div>
 
@@ -36,9 +30,30 @@ export function Slider() {
                 </div>
             </div>
           ))}
+         
         </div>
 
         
     </div>
   )
 }
+
+const data = [
+    {
+        name: 'Loyiso Tose',
+        review:'Loprem iwenbrjnrnnffkfjfd'
+    },
+    {
+        name: 'Loyiso Tose',
+        review:'Loprem iwenbrjnrnnffkfjfd'
+    },
+    {
+        name: 'Loyiso Tose',
+        review:'Loprem iwenbrjnrnnffkfjfd'
+    },
+    {
+        name: 'Loyiso Tose',
+        review:'Loprem iwenbrjnrnnffkfjfd'
+    }
+]
+
