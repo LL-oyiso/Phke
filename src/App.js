@@ -3,14 +3,14 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero'
 import { MainContent } from './components/MainContent';
-import { Slider } from './components/Slider';
+import { BossSlider } from './components/BossSlider';
 function App() {
   return (
     <div>
     <Navbar />
     <Hero />
     <MainContent />
-    <Slider />
+    <BossSlider />
     </div>
   );
 }
