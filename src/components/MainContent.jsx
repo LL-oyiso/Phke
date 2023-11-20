@@ -71,7 +71,7 @@ export const MainContent = () => {
     <div className='w-full bg-black h-[350px]  text-white justify-around font-[Monterrat] flex '>
     <div className=' flex mt-10'>
    <a href ="#hero"><h1 className='text-bold  font-[KronaOne] px-2 py-10 text-2xl'>PHOKE </h1></a>
-   <button></button>
+   <button class></button>
    <ul className='ml-10 mt-5 text-3xl '>
    <a href ="#creators"><li className ="text-xl  font-bold " >Quick links</li></a> 
    <a href ="#specs"> <li className ="text-xl">Home</li></a>
